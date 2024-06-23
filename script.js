@@ -220,7 +220,15 @@ function displayAllPosts(posts){
 
 function createNewpost(){
     
+     const out = document.getElementById('output')
+    out.innerHTML = ''
+
+    const div1 = document.getElementById('tableOut')
+    div1.innerHTML = ''
+
     
+
+
     const div = document.getElementById('taskOut')
 
     div.innerHTML = ''
